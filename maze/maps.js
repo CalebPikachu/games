@@ -184,7 +184,7 @@ var LEVEL_MAPS = {
   },
   map10: {
     mapName: "map10",
-    text: "This one has invisible walls and doors. Although you have seen this before, this is just a more difficult level.",
+    text: "This one has invisible walls and doors. You have seen this before; this is just a more difficult level.",
     matrix: [
       ["1", "1", "1", "1", "1", "1", "1", "1", "1", "1"],
       ["1", "0", "0", "0", "i", "@", "||", "||", "0", "1"],
@@ -238,6 +238,23 @@ var LEVEL_MAPS = {
       ["1", "1", "1", "1", "1", "1", "1", "1", "1", "1"],
     ],
     x: 1,
+    y: 1,
+    portals: [],
+  },
+  map13: {
+    mapName: "map13",
+    text: "Look both ways before you cross the street.",
+    matrix: [
+      ["1", "1", "1", "1", "1", "1", "1", "1"],
+      ["1", "0", "0", "0", "0", "k", "||", "1"],
+      ["1", "0", "1", "1", "1", "1", "1", "1"],
+      ["1", "0", "1", "p", "0", "i", "@", "1"],
+      ["1", "0", "1", "1", "1", "1", "||", "1"],
+      ["1", "0", "0", "0", "0", "i", "0", "1"],
+      ["1", "p", "0", "0", "0", "0", "0", "1"],
+      ["1", "1", "1", "1", "1", "1", "1", "1"],
+    ],
+    x: 3,
     y: 1,
     portals: [],
   },
